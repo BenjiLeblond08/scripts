@@ -1,0 +1,15 @@
+cd "\\\\wsl$\\Ubuntu\\home\\julia" && "C:\\Users\\JLE\\AppData\\Local\\Microsoft\\WindowsApps\\wt.exe" "\\\\wsl$\\Ubuntu\\home\\julia"
+
+Set-Location \\wsl$\Ubuntu\home\leblond
+
+powershell -Command "Set-Location \\wsl$\Ubuntu\home\leblond; Start-Process shell:appsFolder\Microsoft.WindowsTerminal_8wekyb3d8bbwe!App"
+
+powershell -Command "Set-Location \\wsl$\Ubuntu\home\leblond; Start-Process shell:appsFolder\Microsoft.WindowsTerminal_8wekyb3d8bbwe!App"
+
+Start-Process -FilePath "shell:appsFolder\Microsoft.WindowsTerminal_8wekyb3d8bbwe!App" -WorkingDirectory "\\wsl$\Ubuntu\home\leblond"
+
+C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_0.7.3451.0_x64__8wekyb3d8bbwe
+
+powershell -Command "Start-Process -FilePath 'C:\Users\JLE\AppData\Local\Microsoft\WindowsApps\wt.exe' -WorkingDirectory '.'"
+powershell -Command "Start-Process -FilePath 'C:\Users\JLE\AppData\Local\Microsoft\WindowsApps\wt.exe' -WorkingDirectory '\\wsl$\Ubuntu\home\leblond'"
+
